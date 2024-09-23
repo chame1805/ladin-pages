@@ -2,56 +2,65 @@
 
 <div>
 
-    <div id="img">
-        <img src="1.jpg" alt="">
+  <div id="img">
+    <img src="1.jpg" alt="">
+  </div>
+
+  <div id="celular">
+    <button>
+      <h2>Celulares</h2>
+    </button>
+  </div>
+
+  <div id="accesorios">
+    <button>
+      <h2>Accesorios</h2>
+    </button>
+  </div>
+
+  <div id="decoration">
+    <h2>Popular</h2>
+  </div>
+
+  
+  <div id="padre">
+    
+     <div>
+        <button (click)="prevSlide()">❮</button>
+     </div>
+    <div id="poco-img">
+      <img [src]="carouselItems[currentIndex].img">
     </div>
 
-    <div id="celular">
-        <button>
-            <h2>Celulares</h2>
-        </button>
+    
+    <div id="lugar">
+      <h1>Poco X6 PRO</h1>
+      <span>Flow AMOLED CrystalRes de 120Hz</span>
     </div>
 
-    <div id="accesorios">
-        <button>
-            <h2>Accesorios</h2>
-        </button>
+    <div>
+        <button (click)="nextSlide()">❯</button>
     </div>
+  </div>
 
-    <div id="decoration">
-        <h2>Popular</h2>
+  
+  <div class="service-section">
+    <h2>Asistencia de Xiaomi</h2>
+    <div class="service-items">
+      <div class="service-item">
+        <img src="ubi.png" alt="Ubicación">
+        <h4>Ubicación</h4>
+      </div>
+      <div class="service-item">
+        <img src="gara.png" alt="Garantía">
+        <h4>Garantía</h4>
+      </div>
+      <div class="service-item">
+        <img src="guia.png" alt="Guía">
+        <h4>Guía</h4>
+      </div>
     </div>
-
-    <div id="padre">
-        <div id="poco-img">
-            <img src="poco.png" alt="">
-        </div>
-
-        <div id="lugar">
-            <h1>Poco X6 PRO</h1>
-            <span>Flow AMOLED CrystalRes de 120Hz</span>
-        </div>
-    </div>
-    <div id="ser">
-        
-    </div>
-     <!-- Sección de Asistencia de Xiaomi -->
-     <div class="service-section">
-        <h2>Asistencia de Xiaomi</h2>
-        <div class="service-items">
-            <div class="service-item">
-                <img src="ubi.png" alt="Ubicación">
-                <h4>Ubicación</h4>
-            </div>
-            <div class="service-item">
-                <img src="gara.png" alt="Garantía">
-                <h4>Garantía</h4>
-            </div>
-            <div class="service-item">
-                <img src="guia.png" alt="Guía">
-                <h4>Guía</h4>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
+
 <app-footer></app-footer>
