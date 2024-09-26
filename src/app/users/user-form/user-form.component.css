@@ -1,0 +1,47 @@
+/* Contenedor de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6900;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Sección izquierda para el logo */
+  .navbar-left .logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+  }
+  
+  /* Sección derecha de la barra de navegación */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Ajustar el tamaño de la imagen "Inicio" */
+  .menu-icon {
+    height: 40px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 50px; /* Espacio entre la imagen y los enlaces del menú */
+    border-radius: 50px;
+    margin: 10px;
+  }
+  
+  /* Estilo para los enlaces de la barra de navegación */
+  .nav-item {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover para los enlaces */
+  .nav-item:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  

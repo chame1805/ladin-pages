@@ -1,0 +1,38 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.footer-links div h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-links div a {
+    display: block;
+    margin-bottom: 5px;
+    color: grey;
+    text-decoration: none;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
